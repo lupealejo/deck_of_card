@@ -37,18 +37,18 @@ class Card
    //Constructor
    Card(char value, Suit suit)
    {
-      set(value, suit);
+           set(value, suit);
    }
    
    //Mutators
    public void setValue(char newValue)
    {
-      value = newValue;
+           value = newValue;
    }
    
    public void setSuit(Suit newSuit)
    {
-      suit = newSuit;
+           suit = newSuit;
    }
    
    //Accessors
