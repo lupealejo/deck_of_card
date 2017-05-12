@@ -61,6 +61,11 @@ class Card
    {
 	   return suit;
    }
+	
+   public boolean getFlag()
+   {
+	   return errorFlag;
+   }
    
    //Public Methods
    public String toString()
@@ -83,6 +88,16 @@ class Card
 	   
 	   return true;
    }
+	
+   public boolean equals(Card card)
+   {
+	   if (getValue() == card.getValue() && getFlag() == card.getFlag() && getSuit() == card.getSuit())
+	   {
+		   return true;
+	   }
+	   else
+		   return false;
+   }
    
    //Private Methods
    private boolean isValid(char value, Suit suit)
@@ -94,4 +109,6 @@ class Card
 	   else
 		   return true;
    }
+	
+	
 }
