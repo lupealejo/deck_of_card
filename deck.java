@@ -7,7 +7,7 @@ Steven's:
 	- Card inspectCard(int k); 
       ====================================== */
 
-public class desk {
+public class deck {
 
 	// Final constant ( 6 packs maximum ): 
 	public static final int MAX_CARDS = 6*52; 
